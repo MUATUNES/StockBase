@@ -8,7 +8,14 @@ This repository includes detailed guides for writing efficient, high-performance
 
 ### 📚 Available Guides
 
-1. **[Performance Optimization Guide](PERFORMANCE_GUIDE.md)**
+1. **[Quick Reference Guide](QUICK_REFERENCE.md)** ⚡ *Start here!*
+   - One-page summary of key optimizations
+   - Top 10 performance wins
+   - Time complexity cheat sheet
+   - Common mistakes and quick fixes
+   - Essential tools and metrics
+
+2. **[Performance Optimization Guide](PERFORMANCE_GUIDE.md)**
    - Common performance anti-patterns and solutions
    - Best practices for efficient code
    - Profiling and measurement techniques
@@ -16,7 +23,7 @@ This repository includes detailed guides for writing efficient, high-performance
    - Database optimization strategies
    - Caching patterns and strategies
 
-2. **[Code Efficiency Checklist](CODE_EFFICIENCY_CHECKLIST.md)**
+3. **[Code Efficiency Checklist](CODE_EFFICIENCY_CHECKLIST.md)**
    - Comprehensive checklist for code reviews
    - Algorithm and data structure efficiency checks
    - Database operation guidelines
@@ -24,7 +31,7 @@ This repository includes detailed guides for writing efficient, high-performance
    - Language-specific optimization tips
    - Quick wins for immediate improvements
 
-3. **[Inefficient Code Patterns and Solutions](INEFFICIENT_PATTERNS.md)**
+4. **[Inefficient Code Patterns and Solutions](INEFFICIENT_PATTERNS.md)**
    - Real-world examples of slow code
    - Side-by-side comparisons of inefficient vs. efficient implementations
    - Performance impact metrics
@@ -32,6 +39,8 @@ This repository includes detailed guides for writing efficient, high-performance
    - Common pitfalls to avoid
 
 ## Quick Start
+
+**New to performance optimization?** Start with the [Quick Reference Guide](QUICK_REFERENCE.md) for a one-page overview.
 
 Before writing code, review the [Code Efficiency Checklist](CODE_EFFICIENCY_CHECKLIST.md) to understand common performance considerations.
 
