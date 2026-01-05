@@ -1,0 +1,195 @@
+# Performance-Optimized .gitignore Template
+# Prevents committing files that slow down repository operations
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Build Artifacts and Dependencies
+# These should be regenerated, not committed
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+.yarn/
+dist/
+build/
+*.tgz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.gradle/
+build/
+gradle-app.setting
+.gradletasknamecache
+
+# .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.user
+*.suo
+packages/
+.vs/
+
+# Go
+vendor/
+*.exe
+*.test
+*.out
+go.work
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+.bundle/
+vendor/bundle
+
+# Rust
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.dylib
+
+# Logs and Databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+tmp/
+temp/
+
+# Cache directories
+.cache/
+.sass-cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+
+# Test coverage
+coverage/
+*.coverage
+.nyc_output/
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Package manager lock files
+# Note: For applications, COMMIT these files to ensure consistent dependencies
+# For libraries, you may want to ignore them
+# Uncomment the ones you want to ignore:
+# package-lock.json
+# yarn.lock
+# Gemfile.lock
+# Pipfile.lock
+
+# Documentation build artifacts
+docs/_build/
+site/
+
+# Large media files (consider using Git LFS instead)
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.psd
+*.ai
+
+# Performance Tips:
+# 1. Keep this file updated to avoid committing large files
+# 2. Use .gitattributes for LFS configuration for large necessary files
+# 3. Regularly clean up old branches: git branch --merged | xargs git branch -d
+# 4. Use shallow clones for CI: git clone --depth 1
+# 5. Avoid committing build artifacts - use CI/CD to rebuild
