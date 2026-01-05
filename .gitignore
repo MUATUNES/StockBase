@@ -165,7 +165,10 @@ htmlcov/
 .env.test.local
 .env.production.local
 
-# Package manager lock files (optional - comment out if you want to commit these)
+# Package manager lock files
+# Note: For applications, COMMIT these files to ensure consistent dependencies
+# For libraries, you may want to ignore them
+# Uncomment the ones you want to ignore:
 # package-lock.json
 # yarn.lock
 # Gemfile.lock

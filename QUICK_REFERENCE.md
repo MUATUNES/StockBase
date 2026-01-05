@@ -113,14 +113,14 @@ A one-page reference for the most impactful performance optimizations.
 ### Python
 ```python
 # Use list comprehensions
-[x*2 for x in items]  # Fast
+[x * 2 for x in items]  # Fast
 
 # Use built-in functions
 sum(items)  # Implemented in C
 max(items)  # Much faster than loops
 
 # Use generators for large sequences
-(x*2 for x in range(million))  # Memory efficient
+(x * 2 for x in range(million))  # Memory efficient
 ```
 
 ### JavaScript

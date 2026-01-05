@@ -246,7 +246,7 @@ These optimizations often provide good returns with minimal effort:
 
 ## Remember
 
-> "Premature optimization is the root of all evil" - Donald Knuth
+> "Premature optimization is the root of all evil" - Tony Hoare (popularized by Donald Knuth)
 
 - Optimize only after measuring
 - Focus on algorithmic improvements first
